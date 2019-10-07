@@ -1,0 +1,493 @@
+<!Doctype html>
+
+<html>
+
+<head>
+  <title>Two Minute Drill</title>
+
+  <style>
+
+    #form2 {
+      display: none;
+    }
+
+    #form3 {
+      display: none;
+    }
+
+    #form4 {
+      display: none;
+    }
+
+    #form5 {
+      display: none;
+    }
+
+    #form6 {
+      display: none;
+    }
+
+    #form7 {
+      display: none;
+    }
+
+    #form8 {
+      display: none;
+    }
+
+    #form9 {
+      display: none;
+    }
+
+    #form10 {
+      display:none;
+    }
+
+    #form11 {
+      display:none;
+    }
+
+    #result1 {
+      display: none;
+    }
+
+    #result2 {
+      display: none;
+    }
+
+    #result3 {
+      display: none;
+    }
+
+    #result4 {
+      display: none;
+    }
+
+    #result5 {
+      display: none;
+    }
+
+    #result6 {
+      display: none;
+    }
+
+    #result7 {
+      display: none;
+    }
+
+    #result8 {
+      display: none;
+    }
+
+    #main {
+      width: 100%;
+      max-width: 1000px;
+      margin: auto;
+      margin-top: 10px;
+      padding: 10px;
+      background-color: white;
+    }
+
+    #header {
+      margin-top: 0;
+      border: 30px solid green;
+      padding: 20px;
+      height: 300px;
+      background-image: url("football.jpeg");
+      background-position: center;
+      background-size:cover;
+      color: #white;
+    }
+
+    #header h1 {
+      font-family: Helvetica;
+      font-size: 5em;
+      text-align: center;
+      color: white;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    label {
+      display: block;
+      text-align: left;
+      font-size: 100%;
+      font-family: sans-serif;
+    }
+
+    input {
+      width: 175px;
+    }
+
+    h2 {
+      clear: both;
+      font-family: sans-serif;
+      text-align: left;
+      width: 100%;
+    }
+
+    button {
+      width: 150px;
+      text-align: center;
+      margin-top: 20px;
+      background-color: white;
+      margin-left: 425px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div id="main">
+
+    <div id="header">
+      <h1>Two Minute Drill</h1>
+    </div>
+
+    <form id="form1">
+
+        <h2><p>You are the quarterback of the New England Patriots in the biggest game of the year, the Super Bowl. The opposing team has just scored to put you and the Patriots down three points with two minutes and fifteen seconds remaining in the game. The kick return has you and your team starting your drive at the 35 yard line.</p><p>It is up to you to take your team down the field and win the Super Bowl. It is 1st down and 10 with two minutes left in the game, your team has one timeout left. What do you do?</p></h2>
+        <label for="scen1_throw"><input type="radio" name="scen1" value="1" id="scen1_throw" /> Throw the ball to a receiver running a cross route that is a sure first down if completed.</label>
+        <label for="scen1_run"><input type="radio" name="scen1" value="2" id="scen1_run" />Try to catch the defense off guard by running the ball. </label>
+
+        <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form2">
+
+      <h2>Your receiver catches the ball and gets the first down and more, a total of fifteen yards gained on the play. You now have another first down on the 50 yard line, with one minute and fifty seconds remaining. What is your next play call? </h2>
+      <label for="scen2_1_secondpass"><input type="radio" name="scen2_1" value="1" id="scen2_1_secondpass" />Pass the ball again and try to get out of bounds with a small gain.</label>
+      <label for="scen2_1_pitch"><input type="radio" name="scen2_1" value="2" id="scen2_1_pitch" />Pitch the ball to your running back and try to get the outside for a first down.</label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form3">
+
+      <h2>Your running back gets a gain of five and is able to get out of bounds, stopping the clock with one minute and 55 seconds left. It is now 2nd and 5 on your own 40 yard line. What play do you call next? </h2>
+      <label for="scen2_2_runagain"><input type="radio" name="scen2_2" value="1" id="scen2_2_runagain" />Run the ball again, try to get the first down and then get out of bounds quickly.</label>
+      <label for="scen2_2_playaction"><input type="radio" name="scen2_2" value="2" id="scen2_2_playaction" />Call a play action pass and try to get the defense to bite on the fake run. </label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form4">
+
+      <h2>The pass is incomplete, which leaves you with a 2nd and 10 with one minute and fourty seconds remaining. Do you pass the ball again?</h2>
+      <label for="scen3_1_deeppass"><input type="radio" name="scen3_1" value="1" id="scen3_1_deeppass" />Yes, try to hit a deep route for a huge gain. </label>
+      <label for="scen3_1_stopclock"><input type="radio" name="scen3_1" value="2" id="scen3_1_stopclock" />No, run the ball and try to get out of bounds to stop the clock.</label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form5">
+
+      <h2>Your running back breaks free and gets the first down, but stays inbounds so the clock continues to run. Do you call another play or use your last timeout to stop the clock?</h2>
+      <label for="scen3_2_outroute"><input type="radio" name="scen3_2" value="1" id="scen3_2_outroute" />Call a pass play and try to hit one of your receivers on an out route, stopping the clock if he is able to get out of bounds.</label>
+      <label for="scen3_2_timeout"><input type="radio" name="scen3_2" value="2" id="scen3_2_timeout" />Call your last timeout and risk going the rest of the drive without it.</label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form6">
+
+      <h2>Your running back is able to get the first down and get out of bounds! You now have a first and 10 at the 40 yard line with one minute and 25 seconds remaining. Do you call another run here? </h2>
+      <label for="scen4_1_anotherrun"><input type="radio" name="scen4_1" value="1" id="scen4_1_anotherrun" />Run the ball with hope that you can keep getting out of bounds.</label>
+      <label for="scen4_1_fgrange"><input type="radio" name="scen4_1" value="2" id="scen4_1_fgrange" />Pass the ball and try to hit a route that gets you atleast into field goal range. </label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form7">
+
+      <h2>You run the ball again and come up just short of the first down with the clock winding down. Do you waste a down to spike the ball or use your last timeout?</h2>
+      <label for="scen4_2_spikeit"><input type="radio" name="scen4_2" value="1" id="scen4_2_spikeit" />Save the timeout, spike the ball.</label>
+      <label for="scen4_2_toorisky"><input type="radio" name="scen4_2" value="2" id="scen4_2_toorisky" />Call your timeout now, it'd be too risky not to.</label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form8">
+
+      <h2>You hit the receiver downfield for a gain of 15 but he is not able to get out of bounds so you decide to rush to the line and spike the ball. This stops the clock with a minute remaining, but you now have the ball on the opposing 35 yard line. Knowing that you have to score a touchdown to win the game, what is your next call? </h2>
+      <label for="scen4_3_middlepass"><input type="radio" name="scen4_3" value="1" id="scen4_3_middlepass" />Another pass play down the middle, try to break free and score the touchdown.</label>
+      <label for="scen4_3_changeup"><input type="radio" name="scen4_3" value="2" id="scen4_3_changeup" />Change it up with a run play and try to get the first down.</label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form9">
+
+      <h2>You call the timeout with one minute and 25 seconds remaining. You get in the huddle and talk over the rest of the drive with your team. What play do you come out of the timeout with?</h2>
+      <label for="scen4_4_aggressive"><input type="radio" name="scen4_4" value="1" id="scen4_4_aggressive" />Come out aggressive with a deep pass to an out route.</label>
+      <label for="scen4_4_screen"><input type="radio" name="scen4_4" value="2" id="scen4_4_screen" />A halfback screen, if the blocking is there it could go for a huge gain.</label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <form id="form10">
+
+      <h2>You get the offense up to the line quickly and spike the ball on second down. The clock is now stopped with a minute remaining. Do you try to catch the defense off guard with a play action pass?</h2>
+      <label for="scen4_5_passagain"><input type="radio" name="scen4_5" value="1" id="scen4_5_passagain" />Pass the ball, theres not enough time left.</label>
+      <label for="scen4_5_runforfirst"><input type="radio" name="scen4_5" value="2" id="scen4_5_runforfirst" />Run the ball and try to set up the pass on a fresh first down.</label>
+
+      <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+      <form id="form11">
+
+        <h2>You pass the ball and complete the pass for another gain of 15, but the clock continues to run. Do you spike the ball again or go for another quick pass?</h2>
+        <label for="scen5_1_throw"><input type="radio" name="scen5_1" value="1" id="scen5_1_throw" />Spike it, it is critical to stop the clock.</label>
+        <label for="scen5_1_weapon"><input type="radio" name="scen5_1" value="2" id="scen5_1_weapon" />Keep the momentum going with another pass.</label>
+
+        <button type="submit" value="Submit">Next</button>
+
+    </form>
+
+    <h3 id="result5">1</h3>
+
+    <h3 id="result6">2</h3>
+
+    <h3 id="result7">3</h3>
+
+    <h3 id="result8">4</h3>
+
+  </div>
+
+</div>
+
+  <!-- Script to go to scenario 2, including form2 and form3-->
+  <script>
+    document.getElementById("form1").onsubmit=function() {
+       toscene2 = parseInt(document.querySelector('input[name = "scen1"]:checked').value);
+
+  	   if (toscene2==1) {
+         document.getElementById("form2").style.display = "block";
+         document.getElementById("form3").style.display = "none";
+         document.getElementById("form1").style.display = "none";
+       }
+       else if (toscene2==2) {
+         document.getElementById("form2").style.display = "none";
+         document.getElementById("form3").style.display = "block";
+         document.getElementById("form1").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <!--Script to go to scenario 3, including form4 and form5-->
+  <script>
+    document.getElementById("form2").onsubmit=function() {
+       toscene3 = parseInt(document.querySelector('input[name = "scen2_1"]:checked').value);
+
+  	   if (toscene3==1) {
+         document.getElementById("form4").style.display = "block";
+         document.getElementById("form5").style.display = "none";
+         document.getElementById("form2").style.display = "none";
+       }
+       else if(toscene3==2) {
+         document.getElementById("form4").style.display = "none";
+         document.getElementById("form5").style.display = "block";
+         document.getElementById("form2").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <script>
+    document.getElementById("form3").onsubmit=function() {
+       toscene3 = parseInt(document.querySelector('input[name = "scen2_2"]:checked').value);
+
+  	   if (toscene3==1) {
+         document.getElementById("form5").style.display = "block";
+         document.getElementById("form4").style.display = "none";
+         document.getElementById("form3").style.display = "none";
+       }
+       else if (toscene3==2) {
+         document.getElementById("form5").style.display = "none";
+         document.getElementById("form4").style.display = "block";
+         document.getElementById("form3").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <!-- Script to go to scenario 4, including form6 and form7 -->
+  <script>
+    document.getElementById("form4").onsubmit=function() {
+       toscene4 = parseInt(document.querySelector('input[name = "scen3_1"]:checked').value);
+
+       if (toscene4==1) {
+         document.getElementById("form8").style.display = "block";
+         document.getElementById("form9").style.display = "none";
+         document.getElementById("form4").style.display = "none";
+       }
+       else if (toscene4==2) {
+         document.getElementById("form8").style.display = "none";
+         document.getElementById("form6").style.display = "block";
+         document.getElementById("form4").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <!-- Script to go to scenario 4, including form8 and form9 -->
+  <script>
+    document.getElementById("form5").onsubmit=function() {
+       toscene4 = parseInt(document.querySelector('input[name = "scen3_2"]:checked').value);
+
+       if (toscene4==1) {
+         document.getElementById("form8").style.display = "block";
+         document.getElementById("form9").style.display = "none";
+         document.getElementById("form5").style.display = "none";
+       }
+       else if (toscene4==2) {
+         document.getElementById("form8").style.display = "none";
+         document.getElementById("form9").style.display = "block";
+         document.getElementById("form5").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <!-- Script to go to final result -->
+  <!--form 6-->
+  <script>
+    document.getElementById("form6").onsubmit=function() {
+       toscene5 = parseInt(document.querySelector('input[name = "scen4_1"]:checked').value);
+
+       if (toscene5==1) {
+         document.getElementById("form7").style.display = "block";
+         document.getElementById("form4").style.display = "none";
+         document.getElementById("form6").style.display = "none";
+       }
+       else if (toscene5==2) {
+         document.getElementById("form7").style.display = "none";
+         document.getElementById("form8").style.display = "block";
+         document.getElementById("form6").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <!--form 7-->
+  <script>
+    document.getElementById("form7").onsubmit=function() {
+       toscene5 = parseInt(document.querySelector('input[name = "scen4_2"]:checked').value);
+
+       if (toscene5==1) {
+         document.getElementById("form10").style.display = "block";
+         document.getElementById("form8").style.display = "none";
+         document.getElementById("form7").style.display = "none";
+       }
+       else if (toscene5==2) {
+         document.getElementById("form6").style.display = "none";
+         document.getElementById("form9").style.display = "block";
+         document.getElementById("form7").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <!--form 8-->
+  <script>
+    document.getElementById("form8").onsubmit=function() {
+       toscene5 = parseInt(document.querySelector('input[name = "scen4_3"]:checked').value);
+
+       if (toscene5==1) {
+         document.getElementById("result5").style.display = "block";
+         document.getElementById("result6").style.display = "none";
+         document.getElementById("form8").style.display = "none";
+       }
+       else if (toscene5==2) {
+         document.getElementById("result5").style.display = "none";
+         document.getElementById("result6").style.display = "block";
+         document.getElementById("form8").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <!--form 9-->
+  <script>
+    document.getElementById("form9").onsubmit=function() {
+       toscene5 = parseInt(document.querySelector('input[name = "scen4_4"]:checked').value);
+
+       if (toscene5==1) {
+         document.getElementById("result7").style.display = "block";
+         document.getElementById("result8").style.display = "none";
+         document.getElementById("form9").style.display = "none";
+       }
+       else if (toscene5==2) {
+         document.getElementById("result7").style.display = "none";
+         document.getElementById("result8").style.display = "block";
+         document.getElementById("form9").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <script>
+    document.getElementById("form10").onsubmit=function() {
+       toscene6 = parseInt(document.querySelector('input[name = "scen4_5"]:checked').value);
+
+       if (toscene6==1) {
+         document.getElementById("form11").style.display = "block";
+         document.getElementById("form8").style.display = "none";
+         document.getElementById("form9").style.display = "none";
+       }
+       else if (toscene6==2) {
+         document.getElementById("result7").style.display = "none";
+         document.getElementById("result8").style.display = "block";
+         document.getElementById("form9").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+  <script>
+    document.getElementById("form11").onsubmit=function() {
+       toscene6 = parseInt(document.querySelector('input[name = "scen5_1"]:checked').value);
+
+       if (toscene6==1) {
+         document.getElementById("result7").style.display = "block";
+         document.getElementById("result8").style.display = "none";
+         document.getElementById("form9").style.display = "none";
+       }
+       else if (toscene6==2) {
+         document.getElementById("result7").style.display = "none";
+         document.getElementById("result8").style.display = "block";
+         document.getElementById("form9").style.display = "none";
+       }
+
+    return false; // required to not refresh the page; just leave this here
+    } //this ends the submit function
+  </script>
+
+</body>
+
+</html>
