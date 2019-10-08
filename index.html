@@ -251,16 +251,16 @@
       <form id="form11">
 
         <h2>You pass the ball and complete the pass for another gain of 15, but the clock continues to run. Do you spike the ball again or go for another quick pass?</h2>
-        <label for="scen5_1_throw"><input type="radio" name="scen5_1" value="1" id="scen5_1_throw" />Spike it, it is critical to stop the clock.</label>
-        <label for="scen5_1_weapon"><input type="radio" name="scen5_1" value="2" id="scen5_1_weapon" />Keep the momentum going with another pass.</label>
+        <label for="scen5_1_secondspike"><input type="radio" name="scen5_1" value="1" id="scen5_1_secondspike" />Spike it, it is critical to stop the clock.</label>
+        <label for="scen5_1_anotherpass"><input type="radio" name="scen5_1" value="2" id="scen4_1_anotherpass" />Keep the momentum going with another pass.</label>
 
         <button type="submit" value="Submit">Next</button>
 
     </form>
 
-    <h3 id="result5">1</h3>
+    <h3 id="result5"><p>You call the pass play, with your main look being a post route that will beat the safeties. You throw the ball to that route and its caught! Your receiver breaks away from the defender and scores the touchdown with minimal time remaining!</p><p>YOU HAVE WON THE SUPER BOWL!</p></h3>
 
-    <h3 id="result6">2</h3>
+    <h3 id="result6"><p>The defense knew the run was coming and stops your running back right at the line of scrimmage. As he was falling to the ground another defender popped the football out of his arms, FUMBLE! The defense recovers the ball and takes posession, takes a knee, and lets the rest of the clock run out.</p> <p>YOU HAVE LOST THE SUPER BOWL!</p></h3>
 
     <h3 id="result7">3</h3>
 
@@ -417,13 +417,13 @@
 
        if (toscene5==1) {
          document.getElementById("result5").style.display = "block";
-         document.getElementById("result6").style.display = "none";
+         document.getElementById("result7").style.display = "none";
          document.getElementById("form8").style.display = "none";
        }
        else if (toscene5==2) {
          document.getElementById("result5").style.display = "none";
          document.getElementById("result6").style.display = "block";
-         document.getElementById("form8").style.display = "none";
+         document.getElementById("form7").style.display = "none";
        }
 
     return false; // required to not refresh the page; just leave this here
